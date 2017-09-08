@@ -9,22 +9,22 @@ let Signal = function(){
   function getPeriod(){return period;}
   function getPointArray(){return points;}
 
-  function shiftX(){
+  function shiftX(value){
+    transformedPoints.getX()
+  }
+  function shiftY(value){
 
   }
-  function shiftY(){
+  function stretchX(value){
 
   }
-  function stretchX(){
-
-  }
-  function stretchY(){
+  function stretchY(value){
 
   }
   function transformation(){
-
+    return transformedPoints;
   }
-  function outputOf(){
+  function outputOf(xvalue){
 
   }
   function calculateSpan(){
