@@ -1,7 +1,7 @@
 let Signal = function(){
   let numberOfPoints = array.length;
   let points = array;
-  let transformedPoints = array;
+  let transformedPoints = [p1,p2,p3,p4,p5,p6]
   let range;
   let period;
 
@@ -10,7 +10,7 @@ let Signal = function(){
   function getPointArray(){return points;}
 
   function shiftX(value){
-    transformedPoints.getX()
+    transformedPoints.getX(p1)
   }
   function shiftY(value){
 

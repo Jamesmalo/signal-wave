@@ -23,3 +23,5 @@ const Point = function(xcor,ycor){
 
   return(getX,getY,magnitude,distanceTo,direction)
 }
+
+Module.exports = Point;
