@@ -1,7 +1,7 @@
 let Signal = function(){
   let numberOfPoints = array.length;
   let points = array;
-  let transformedPoints = [p1,p2,p3,p4,p5,p6]
+  let transformedPoints = array;
   let range;
   let period;
 
@@ -10,22 +10,24 @@ let Signal = function(){
   function getPointArray(){return points;}
 
   function shiftX(value){
-    transformedPoints.getX(p1)
+    transformedPoints.getX()=points.getx+value;
   }
   function shiftY(value){
-
+    transformedPoints.getY()=points.gety+value;
   }
   function stretchX(value){
-
+    Points.getX()=points.getx*value;
   }
   function stretchY(value){
-
+    Points.getY()=points.gety*value;
   }
   function transformation(){
     return transformedPoints;
   }
   function outputOf(xvalue){
-
+    for(let x = 0;x < points.length;x++){
+      
+    }
   }
   function calculateSpan(){
 
