@@ -10,21 +10,25 @@ let Signal = function(){
   function getPointArray(){return points;}
 
   function shiftX(value){
-      
-      let tempx = ;
-      let tempy = ;
-      tempx += ;
-      let temppoint= ;
-      transformedPoints[a] = temppoint;
+     for(var=0;a<numberOfPoints; a++)
+      let tempx = transformedPoints[a].getX();
+      let tempy = transformedpoints[a].getY();
+      tempx += value;
+      transformedPoints[a] = new Point(tempx,tempy);
     }
   function shiftY(value){
-    transformedPoints.getY()=points.gety+value;
+      for(var=0;a<numberOfPoints; a++)
+       let tempx = transformedPoints[a].getX();
+       let tempy = transformedpoints[a].getY();
+       tempy += value;
+       transformedPoints[a] = new Point(tempx,tempy);
   }
   function stretchX(value){
-    points.getX()=points.getx*value;
+      for(var=0;a<numberOfPoints; a++)
+
   }
   function stretchY(value){
-    points.getY()=points.gety*value;
+
   }
   function transformation(){
     return transformedPoints;
